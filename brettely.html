@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+  <head>
+    <title>Brettely - Presale</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="web4/e96a37ee2b622efd.css" data-precedence="next">
+    <link rel="stylesheet" href="web4/c844d0f8bbf883ad.css" data-precedence="next">
+    <meta name="next-size-adjust" content="">
+
+    <style type="text/css">
+      .rfm-marquee-container {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: var(--width);
+        transform: var(--transform);
+      }
+
+      .rfm-marquee-container:hover div {
+        animation-play-state: var(--pause-on-hover);
+      }
+
+      .rfm-marquee-container:active div {
+        animation-play-state: var(--pause-on-click);
+      }
+
+      .rfm-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+
+      .rfm-overlay::before,
+      .rfm-overlay::after {
+        background: linear-gradient(to right, var(--gradient-color), rgba(255, 255, 255, 0));
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: var(--gradient-width);
+        z-index: 2;
+        pointer-events: none;
+        touch-action: none;
+      }
+
+      .rfm-overlay::after {
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+      }
+
+      .rfm-overlay::before {
+        left: 0;
+        top: 0;
+      }
+
+      .rfm-marquee {
+        flex: 0 0 auto;
+        min-width: var(--min-width);
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+        animation-play-state: var(--play);
+        animation-delay: var(--delay);
+        animation-direction: var(--direction);
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0%);
+        }
+
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      .rfm-initial-child-container {
+        flex: 0 0 auto;
+        display: flex;
+        min-width: auto;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .rfm-child {
+        transform: var(--transform);
+      }
+    </style>
+
+    <link rel="preload" href="web4/twitter.svg" as="image">
+    <title>Brettely - Presale</title>
+    <meta name="description" content="Welcome to the Brettely! The Brettely meets a metaverse combined with &quot;Squid Game&quot; to offer a new experience. Feel 1000x the fun through games where the winner takes incredible rewards. Laugh, enjoy, chat, and receive rewards in Squid World.">
+    <meta name="application-name" content="Brettely">
+    <meta name="author" content="Brettely Team">
+    <link rel="manifest" >
+    <meta name="keywords" content="Brettely,Squid Game,Brettely,Brettely Squid Game,Meme,Metaverse,BrettelyUnchained,Ethereum,Brettely,Brettely,PESW,WEPE">
+    <meta name="creator" content="Brettely Team">
+    <meta name="publisher" content="Brettely">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1">
+    <meta property="og:title" content="Brettely">
+    <meta property="og:description" content="Welcome to the Brettely! The Brettely meets a metaverse combined with &quot;Squid Game&quot; to offer a new experience. Feel 1000x the fun through games where the winner takes incredible rewards. Laugh, enjoy, chat, and receive rewards in Squid World.">
+    <meta property="og:site_name" content="Brettely">
+    <meta property="og:locale" content="en">
+    <meta property="og:image:width" content="890">
+    <meta property="og:image:height" content="713">
+    <meta property="og:image:alt" content="Brettely">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="z1/Brettely/logo.png">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+      @keyframes w3m-shake {
+        0% {
+          transform: scale(1) rotate(0deg);
+        }
+
+        20% {
+          transform: scale(1) rotate(-1deg);
+        }
+
+        40% {
+          transform: scale(1) rotate(1.5deg);
+        }
+
+        60% {
+          transform: scale(1) rotate(-1.5deg);
+        }
+
+        80% {
+          transform: scale(1) rotate(1deg);
+        }
+
+        100% {
+          transform: scale(1) rotate(0deg);
+        }
+      }
+
+      @keyframes w3m-iframe-fade-out {
+        0% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes w3m-iframe-zoom-in {
+        0% {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+
+      @keyframes w3m-iframe-zoom-in-mobile {
+        0% {
+          transform: scale(0.95);
+          opacity: 0;
+        }
+
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      :root {
+        --w3m-modal-width: 360px;
+        --w3m-color-mix-strength: 0%;
+        --w3m-font-family: Inter, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        ;
+        --w3m-font-size-master: 10px;
+        --w3m-border-radius-master: 4px;
+        --w3m-z-index: 999;
+        --wui-font-family: var(--w3m-font-family);
+        --wui-font-size-mini: calc(var(--w3m-font-size-master) * 0.8);
+        --wui-font-size-micro: var(--w3m-font-size-master);
+        --wui-font-size-tiny: calc(var(--w3m-font-size-master) * 1.2);
+        --wui-font-size-small: calc(var(--w3m-font-size-master) * 1.4);
+        --wui-font-size-paragraph: calc(var(--w3m-font-size-master) * 1.6);
+        --wui-font-size-medium: calc(var(--w3m-font-size-master) * 1.8);
+        --wui-font-size-large: calc(var(--w3m-font-size-master) * 2);
+        --wui-font-size-title-6: calc(var(--w3m-font-size-master) * 2.2);
+        --wui-font-size-medium-title: calc(var(--w3m-font-size-master) * 2.4);
+        --wui-font-size-2xl: calc(var(--w3m-font-size-master) * 4);
+        --wui-border-radius-5xs: var(--w3m-border-radius-master);
+        --wui-border-radius-4xs: calc(var(--w3m-border-radius-master) * 1.5);
+        --wui-border-radius-3xs: calc(var(--w3m-border-radius-master) * 2);
+        --wui-border-radius-xxs: calc(var(--w3m-border-radius-master) * 3);
+        --wui-border-radius-xs: calc(var(--w3m-border-radius-master) * 4);
+        --wui-border-radius-s: calc(var(--w3m-border-radius-master) * 5);
+        --wui-border-radius-m: calc(var(--w3m-border-radius-master) * 7);
+        --wui-border-radius-l: calc(var(--w3m-border-radius-master) * 9);
+        --wui-border-radius-3xl: calc(var(--w3m-border-radius-master) * 20);
+        --wui-font-weight-light: 400;
+        --wui-font-weight-regular: 500;
+        --wui-font-weight-medium: 600;
+        --wui-font-weight-bold: 700;
+        --wui-letter-spacing-2xl: -1.6px;
+        --wui-letter-spacing-medium-title: -0.96px;
+        --wui-letter-spacing-title-6: -0.88px;
+        --wui-letter-spacing-large: -0.8px;
+        --wui-letter-spacing-medium: -0.72px;
+        --wui-letter-spacing-paragraph: -0.64px;
+        --wui-letter-spacing-small: -0.56px;
+        --wui-letter-spacing-tiny: -0.48px;
+        --wui-letter-spacing-micro: -0.2px;
+        --wui-letter-spacing-mini: -0.16px;
+        --wui-spacing-0: 0px;
+        --wui-spacing-4xs: 2px;
+        --wui-spacing-3xs: 4px;
+        --wui-spacing-xxs: 6px;
+        --wui-spacing-2xs: 7px;
+        --wui-spacing-xs: 8px;
+        --wui-spacing-1xs: 10px;
+        --wui-spacing-s: 12px;
+        --wui-spacing-m: 14px;
+        --wui-spacing-l: 16px;
+        --wui-spacing-2l: 18px;
+        --wui-spacing-xl: 20px;
+        --wui-spacing-xxl: 24px;
+        --wui-spacing-2xl: 32px;
+        --wui-spacing-3xl: 40px;
+        --wui-spacing-4xl: 90px;
+        --wui-spacing-5xl: 95px;
+        --wui-icon-box-size-xxs: 14px;
+        --wui-icon-box-size-xs: 20px;
+        --wui-icon-box-size-sm: 24px;
+        --wui-icon-box-size-md: 32px;
+        --wui-icon-box-size-mdl: 36px;
+        --wui-icon-box-size-lg: 40px;
+        --wui-icon-box-size-2lg: 48px;
+        --wui-icon-box-size-xl: 64px;
+        --wui-icon-size-inherit: inherit;
+        --wui-icon-size-xxs: 10px;
+        --wui-icon-size-xs: 12px;
+        --wui-icon-size-sm: 14px;
+        --wui-icon-size-md: 16px;
+        --wui-icon-size-mdl: 18px;
+        --wui-icon-size-lg: 20px;
+        --wui-icon-size-xl: 24px;
+        --wui-icon-size-xxl: 28px;
+        --wui-wallet-image-size-inherit: inherit;
+        --wui-wallet-image-size-sm: 40px;
+        --wui-wallet-image-size-md: 56px;
+        --wui-wallet-image-size-lg: 80px;
+        --wui-visual-size-size-inherit: inherit;
+        --wui-visual-size-sm: 40px;
+        --wui-visual-size-md: 55px;
+        --wui-visual-size-lg: 80px;
+        --wui-box-size-md: 100px;
+        --wui-box-size-lg: 120px;
+        --wui-ease-out-power-2: cubic-bezier(0, 0, 0.22, 1);
+        --wui-ease-out-power-1: cubic-bezier(0, 0, 0.55, 1);
+        --wui-ease-in-power-3: cubic-bezier(0.66, 0, 1, 1);
+        --wui-ease-in-power-2: cubic-bezier(0.45, 0, 1, 1);
+        --wui-ease-in-power-1: cubic-bezier(0.3, 0, 1, 1);
+        --wui-ease-inout-power-1: cubic-bezier(0.45, 0, 0.55, 1);
+        --wui-duration-lg: 200ms;
+        --wui-duration-md: 125ms;
+        --wui-duration-sm: 75ms;
+        --wui-path-network-sm: path('M15.4 2.1a5.21 5.21 0 0 1 5.2 0l11.61 6.7a5.21 5.21 0 0 1 2.61 4.52v13.4c0 1.87-1 3.59-2.6 4.52l-11.61 6.7c-1.62.93-3.6.93-5.22 0l-11.6-6.7a5.21 5.21 0 0 1-2.61-4.51v-13.4c0-1.87 1-3.6 2.6-4.52L15.4 2.1Z'
+          );
+        --wui-path-network-md: path('M43.4605 10.7248L28.0485 1.61089C25.5438 0.129705 22.4562 0.129705 19.9515 1.61088L4.53951 10.7248C2.03626 12.2051 0.5 14.9365 0.5 17.886V36.1139C0.5 39.0635 2.03626 41.7949 4.53951 43.2752L19.9515 52.3891C22.4562 53.8703 25.5438 53.8703 28.0485 52.3891L43.4605 43.2752C45.9637 41.7949 47.5 39.0635 47.5 36.114V17.8861C47.5 14.9365 45.9637 12.2051 43.4605 10.7248Z'
+          );
+        --wui-path-network-lg: path('M78.3244 18.926L50.1808 2.45078C45.7376 -0.150261 40.2624 -0.150262 35.8192 2.45078L7.6756 18.926C3.23322 21.5266 0.5 26.3301 0.5 31.5248V64.4752C0.5 69.6699 3.23322 74.4734 7.6756 77.074L35.8192 93.5492C40.2624 96.1503 45.7376 96.1503 50.1808 93.5492L78.3244 77.074C82.7668 74.4734 85.5 69.6699 85.5 64.4752V31.5248C85.5 26.3301 82.7668 21.5266 78.3244 18.926Z'
+          );
+        --wui-width-network-sm: 36px;
+        --wui-width-network-md: 48px;
+        --wui-width-network-lg: 86px;
+        --wui-height-network-sm: 40px;
+        --wui-height-network-md: 54px;
+        --wui-height-network-lg: 96px;
+        --wui-icon-size-network-xs: 12px;
+        --wui-icon-size-network-sm: 16px;
+        --wui-icon-size-network-md: 24px;
+        --wui-icon-size-network-lg: 42px;
+        --wui-color-inherit: inherit;
+        --wui-color-inverse-100: #fff;
+        --wui-color-inverse-000: #000;
+        --wui-cover: rgba(20, 20, 20, 0.8);
+        --wui-color-modal-bg: var(--wui-color-modal-bg-base);
+        --wui-color-accent-100: var(--wui-color-accent-base-100);
+        --wui-color-accent-090: var(--wui-color-accent-base-090);
+        --wui-color-accent-080: var(--wui-color-accent-base-080);
+        --wui-color-success-100: var(--wui-color-success-base-100);
+        --wui-color-success-125: var(--wui-color-success-base-125);
+        --wui-color-warning-100: var(--wui-color-warning-base-100);
+        --wui-color-error-100: var(--wui-color-error-base-100);
+        --wui-color-error-125: var(--wui-color-error-base-125);
+        --wui-color-blue-100: var(--wui-color-blue-base-100);
+        --wui-color-blue-90: var(--wui-color-blue-base-90);
+        --wui-icon-box-bg-error-100: var(--wui-icon-box-bg-error-base-100);
+        --wui-icon-box-bg-blue-100: var(--wui-icon-box-bg-blue-base-100);
+        --wui-icon-box-bg-success-100: var(--wui-icon-box-bg-success-base-100);
+        --wui-icon-box-bg-inverse-100: var(--wui-icon-box-bg-inverse-base-100);
+        --wui-all-wallets-bg-100: var(--wui-all-wallets-bg-100);
+        --wui-avatar-border: var(--wui-avatar-border-base);
+        --wui-thumbnail-border: var(--wui-thumbnail-border-base);
+        --wui-wallet-button-bg: var(--wui-wallet-button-bg-base);
+        --wui-box-shadow-blue: var(--wui-color-accent-glass-020);
+      }
+
+      @supports (background: color-mix(in srgb, white 50%, black)) {
+        :root {
+          --wui-color-modal-bg: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-modal-bg-base));
+          --wui-box-shadow-blue: color-mix(in srgb, var(--wui-color-accent-100) 20%, transparent);
+          --wui-color-accent-100: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 100%,
+              transparent);
+          --wui-color-accent-090: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 90%,
+              transparent);
+          --wui-color-accent-080: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 80%,
+              transparent);
+          --wui-color-accent-glass-090: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 90%,
+              transparent);
+          --wui-color-accent-glass-080: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 80%,
+              transparent);
+          --wui-color-accent-glass-020: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 20%,
+              transparent);
+          --wui-color-accent-glass-015: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 15%,
+              transparent);
+          --wui-color-accent-glass-010: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 10%,
+              transparent);
+          --wui-color-accent-glass-005: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 5%,
+              transparent);
+          --wui-color-accent-002: color-mix(in srgb,
+              var(--wui-color-accent-base-100) 2%,
+              transparent);
+          --wui-color-fg-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-100));
+          --wui-color-fg-125: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-125));
+          --wui-color-fg-150: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-150));
+          --wui-color-fg-175: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-175));
+          --wui-color-fg-200: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-200));
+          --wui-color-fg-225: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-225));
+          --wui-color-fg-250: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-250));
+          --wui-color-fg-275: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-275));
+          --wui-color-fg-300: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-300));
+          --wui-color-fg-325: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-325));
+          --wui-color-fg-350: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-fg-350));
+          --wui-color-bg-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-100));
+          --wui-color-bg-125: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-125));
+          --wui-color-bg-150: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-150));
+          --wui-color-bg-175: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-175));
+          --wui-color-bg-200: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-200));
+          --wui-color-bg-225: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-225));
+          --wui-color-bg-250: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-250));
+          --wui-color-bg-275: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-275));
+          --wui-color-bg-300: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-300));
+          --wui-color-bg-325: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-325));
+          --wui-color-bg-350: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-bg-350));
+          --wui-color-success-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-success-base-100));
+          --wui-color-success-125: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-success-base-125));
+          --wui-color-warning-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-warning-base-100));
+          --wui-color-error-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-error-base-100));
+          --wui-color-blue-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-blue-base-100));
+          --wui-color-blue-90: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-blue-base-90));
+          --wui-color-error-125: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-color-error-base-125));
+          --wui-icon-box-bg-error-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-error-base-100));
+          --wui-icon-box-bg-accent-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-blue-base-100));
+          --wui-icon-box-bg-success-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-success-base-100));
+          --wui-icon-box-bg-inverse-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-icon-box-bg-inverse-base-100));
+          --wui-all-wallets-bg-100: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-all-wallets-bg-100));
+          --wui-avatar-border: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-avatar-border-base));
+          --wui-thumbnail-border: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-thumbnail-border-base));
+          --wui-wallet-button-bg: color-mix(in srgb,
+              var(--w3m-color-mix) var(--w3m-color-mix-strength),
+              var(--wui-wallet-button-bg-base));
+        }
+      }
+    </style>
+    <style media="enabled">
+      :root {
+        --w3m-color-mix: #000;
+        --w3m-accent: #F471B7;
+        --w3m-default: #000;
+        --wui-color-modal-bg-base: #fff;
+        --wui-color-accent-base-100: var(--w3m-accent);
+        --wui-color-blueberry-100: hsla(231, 100%, 70%, 1);
+        --wui-color-blueberry-090: hsla(231, 97%, 72%, 1);
+        --wui-color-blueberry-080: hsla(231, 92%, 74%, 1);
+        --wui-color-fg-100: #141414;
+        --wui-color-fg-125: #2d3131;
+        --wui-color-fg-150: #474d4d;
+        --wui-color-fg-175: #636d6d;
+        --wui-color-fg-200: #798686;
+        --wui-color-fg-225: #828f8f;
+        --wui-color-fg-250: #8b9797;
+        --wui-color-fg-275: #95a0a0;
+        --wui-color-fg-300: #9ea9a9;
+        --wui-color-fg-325: #9a9a9a;
+        --wui-color-fg-350: #d0d0d0;
+        --wui-color-bg-100: #ffffff;
+        --wui-color-bg-125: #f5fafa;
+        --wui-color-bg-150: #f3f8f8;
+        --wui-color-bg-175: #eef4f4;
+        --wui-color-bg-200: #eaf1f1;
+        --wui-color-bg-225: #e5eded;
+        --wui-color-bg-250: #e1e9e9;
+        --wui-color-bg-275: #dce7e7;
+        --wui-color-bg-300: #d8e3e3;
+        --wui-color-bg-325: #f3f3f3;
+        --wui-color-bg-350: #202020;
+        --wui-color-success-base-100: #26b562;
+        --wui-color-success-base-125: #30a46b;
+        --wui-color-warning-base-100: #f3a13f;
+        --wui-color-error-base-100: #f05142;
+        --wui-color-error-base-125: #df4a34;
+        --wui-color-blue-base-100: rgba(102, 125, 255, 1);
+        --wui-color-blue-base-90: rgba(102, 125, 255, 0.9);
+        --wui-color-success-glass-001: rgba(38, 181, 98, 0.01);
+        --wui-color-success-glass-002: rgba(38, 181, 98, 0.02);
+        --wui-color-success-glass-005: rgba(38, 181, 98, 0.05);
+        --wui-color-success-glass-010: rgba(38, 181, 98, 0.1);
+        --wui-color-success-glass-015: rgba(38, 181, 98, 0.15);
+        --wui-color-success-glass-020: rgba(38, 181, 98, 0.2);
+        --wui-color-success-glass-025: rgba(38, 181, 98, 0.25);
+        --wui-color-success-glass-030: rgba(38, 181, 98, 0.3);
+        --wui-color-success-glass-060: rgba(38, 181, 98, 0.6);
+        --wui-color-success-glass-080: rgba(38, 181, 98, 0.8);
+        --wui-color-success-glass-reown-020: rgba(48, 164, 107, 0.2);
+        --wui-color-warning-glass-reown-020: rgba(243, 161, 63, 0.2);
+        --wui-color-error-glass-001: rgba(240, 81, 66, 0.01);
+        --wui-color-error-glass-002: rgba(240, 81, 66, 0.02);
+        --wui-color-error-glass-005: rgba(240, 81, 66, 0.05);
+        --wui-color-error-glass-010: rgba(240, 81, 66, 0.1);
+        --wui-color-error-glass-015: rgba(240, 81, 66, 0.15);
+        --wui-color-error-glass-020: rgba(240, 81, 66, 0.2);
+        --wui-color-error-glass-025: rgba(240, 81, 66, 0.25);
+        --wui-color-error-glass-030: rgba(240, 81, 66, 0.3);
+        --wui-color-error-glass-060: rgba(240, 81, 66, 0.6);
+        --wui-color-error-glass-080: rgba(240, 81, 66, 0.8);
+        --wui-color-error-glass-reown-020: rgba(223, 74, 52, 0.2);
+        --wui-icon-box-bg-error-base-100: #f4dfdd;
+        --wui-icon-box-bg-blue-base-100: #d9ecfb;
+        --wui-icon-box-bg-success-base-100: #daf0e4;
+        --wui-icon-box-bg-inverse-base-100: #dcecfc;
+        --wui-all-wallets-bg-100: #e8f1fa;
+        --wui-avatar-border-base: #f3f4f4;
+        --wui-thumbnail-border-base: #eaefef;
+        --wui-wallet-button-bg-base: var(--wui-color-bg-125);
+        --wui-color-gray-glass-001: rgba(0, 0, 0, 0.01);
+        --wui-color-gray-glass-002: rgba(0, 0, 0, 0.02);
+        --wui-color-gray-glass-005: rgba(0, 0, 0, 0.05);
+        --wui-color-gray-glass-010: rgba(0, 0, 0, 0.1);
+        --wui-color-gray-glass-015: rgba(0, 0, 0, 0.15);
+        --wui-color-gray-glass-020: rgba(0, 0, 0, 0.2);
+        --wui-color-gray-glass-025: rgba(0, 0, 0, 0.25);
+        --wui-color-gray-glass-030: rgba(0, 0, 0, 0.3);
+        --wui-color-gray-glass-060: rgba(0, 0, 0, 0.6);
+        --wui-color-gray-glass-080: rgba(0, 0, 0, 0.8);
+        --wui-color-gray-glass-090: rgba(0, 0, 0, 0.9);
+        --wui-color-dark-glass-100: rgba(233, 233, 233, 1);
+        --w3m-card-embedded-shadow-color: rgb(224 225 233 / 25%);
+      }
+    </style>
+    <style>
+      :root {
+        --w3m-color-mix: #fff;
+        --w3m-accent: #F471B7;
+        --w3m-default: #fff;
+        --wui-color-modal-bg-base: #121313;
+        --wui-color-accent-base-100: var(--w3m-accent);
+        --wui-color-blueberry-100: hsla(230, 100%, 67%, 1);
+        --wui-color-blueberry-090: hsla(231, 76%, 61%, 1);
+        --wui-color-blueberry-080: hsla(230, 59%, 55%, 1);
+        --wui-color-blueberry-050: hsla(231, 100%, 70%, 0.1);
+        --wui-color-fg-100: #e4e7e7;
+        --wui-color-fg-125: #d0d5d5;
+        --wui-color-fg-150: #a8b1b1;
+        --wui-color-fg-175: #a8b0b0;
+        --wui-color-fg-200: #949e9e;
+        --wui-color-fg-225: #868f8f;
+        --wui-color-fg-250: #788080;
+        --wui-color-fg-275: #788181;
+        --wui-color-fg-300: #6e7777;
+        --wui-color-fg-325: #9a9a9a;
+        --wui-color-fg-350: #363636;
+        --wui-color-bg-100: #141414;
+        --wui-color-bg-125: #191a1a;
+        --wui-color-bg-150: #1e1f1f;
+        --wui-color-bg-175: #222525;
+        --wui-color-bg-200: #272a2a;
+        --wui-color-bg-225: #2c3030;
+        --wui-color-bg-250: #313535;
+        --wui-color-bg-275: #363b3b;
+        --wui-color-bg-300: #3b4040;
+        --wui-color-bg-325: #252525;
+        --wui-color-bg-350: #ffffff;
+        --wui-color-success-base-100: #26d962;
+        --wui-color-success-base-125: #30a46b;
+        --wui-color-warning-base-100: #f3a13f;
+        --wui-color-error-base-100: #f25a67;
+        --wui-color-error-base-125: #df4a34;
+        --wui-color-blue-base-100: rgba(102, 125, 255, 1);
+        --wui-color-blue-base-90: rgba(102, 125, 255, 0.9);
+        --wui-color-success-glass-001: rgba(38, 217, 98, 0.01);
+        --wui-color-success-glass-002: rgba(38, 217, 98, 0.02);
+        --wui-color-success-glass-005: rgba(38, 217, 98, 0.05);
+        --wui-color-success-glass-010: rgba(38, 217, 98, 0.1);
+        --wui-color-success-glass-015: rgba(38, 217, 98, 0.15);
+        --wui-color-success-glass-020: rgba(38, 217, 98, 0.2);
+        --wui-color-success-glass-025: rgba(38, 217, 98, 0.25);
+        --wui-color-success-glass-030: rgba(38, 217, 98, 0.3);
+        --wui-color-success-glass-060: rgba(38, 217, 98, 0.6);
+        --wui-color-success-glass-080: rgba(38, 217, 98, 0.8);
+        --wui-color-success-glass-reown-020: rgba(48, 164, 107, 0.2);
+        --wui-color-warning-glass-reown-020: rgba(243, 161, 63, 0.2);
+        --wui-color-error-glass-001: rgba(242, 90, 103, 0.01);
+        --wui-color-error-glass-002: rgba(242, 90, 103, 0.02);
+        --wui-color-error-glass-005: rgba(242, 90, 103, 0.05);
+        --wui-color-error-glass-010: rgba(242, 90, 103, 0.1);
+        --wui-color-error-glass-015: rgba(242, 90, 103, 0.15);
+        --wui-color-error-glass-020: rgba(242, 90, 103, 0.2);
+        --wui-color-error-glass-025: rgba(242, 90, 103, 0.25);
+        --wui-color-error-glass-030: rgba(242, 90, 103, 0.3);
+        --wui-color-error-glass-060: rgba(242, 90, 103, 0.6);
+        --wui-color-error-glass-080: rgba(242, 90, 103, 0.8);
+        --wui-color-error-glass-reown-020: rgba(223, 74, 52, 0.2);
+        --wui-color-gray-glass-001: rgba(255, 255, 255, 0.01);
+        --wui-color-gray-glass-002: rgba(255, 255, 255, 0.02);
+        --wui-color-gray-glass-005: rgba(255, 255, 255, 0.05);
+        --wui-color-gray-glass-010: rgba(255, 255, 255, 0.1);
+        --wui-color-gray-glass-015: rgba(255, 255, 255, 0.15);
+        --wui-color-gray-glass-020: rgba(255, 255, 255, 0.2);
+        --wui-color-gray-glass-025: rgba(255, 255, 255, 0.25);
+        --wui-color-gray-glass-030: rgba(255, 255, 255, 0.3);
+        --wui-color-gray-glass-060: rgba(255, 255, 255, 0.6);
+        --wui-color-gray-glass-080: rgba(255, 255, 255, 0.8);
+        --wui-color-gray-glass-090: rgba(255, 255, 255, 0.9);
+        --wui-color-dark-glass-100: rgba(42, 42, 42, 1);
+        --wui-icon-box-bg-error-base-100: #3c2426;
+        --wui-icon-box-bg-blue-base-100: #20303f;
+        --wui-icon-box-bg-success-base-100: #1f3a28;
+        --wui-icon-box-bg-inverse-base-100: #243240;
+        --wui-all-wallets-bg-100: #222b35;
+        --wui-avatar-border-base: #252525;
+        --wui-thumbnail-border-base: #252525;
+        --wui-wallet-button-bg-base: var(--wui-color-bg-125);
+        --w3m-card-embedded-shadow-color: rgb(17 17 18 / 25%);
+      }
+    </style>
+
+  </head>
+  <body class="__variable_e61f6e __className_824051 __variable_d66edc bg-[#bfecec]">
+    <div class="fixed top-0 left-0 right-0 z-50 bg-background flex flex-col">
+      <div class="sticky top-0 left-0 right-0 z-50">
+        <header class="w-full h-[70px] bg-[#1a1a1a] text-white z-[3] shadow-[0_0_30px_rgba(21,21,21,0.1)] transition-all duration-300 ease-linear flex items-center">
+          <div class="w-full md:max-w-[1900px] md:min-w-[1400px] mx-auto px-2 md:px-4 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <img alt="PESW" width="72" height="72" srcset="z1/Brettely/logo.png">
+              <a >
+                <button class="px-5 py-2 font-bold text-white bg-[#0a7a6a] rounded-full hover:bg-[#0b8c7a]  focus:outline-none focus:ring-2 focus:ring-[#0a7a6a] focus:ring-opacity-50  transition-all duration-300 ease-in-out shadow-lg text-lg  flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed">
+                  <span class="flex items-center justify-center">Brettely</span>
+                </button>
+              </a>
+            </div>
+
+            <div class="hidden md:flex items-center gap-4">
+              <div class="flex gap-2">
+                <a  target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 rounded-full bg-[#86cecb] text-[#1a1a1a] hover:bg-[#6ba3a1] transition-colors duration-200">
+                  <img alt="Twitter" width="35" height="35" decoding="async" data-nimg="1" style="color:transparent;width:35px;height:35px;max-width:100%;object-fit:contain" src="web4/twitter.svg">
+                </a>
+                <a  target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 rounded-full bg-[#86cecb] text-[#1a1a1a] hover:bg-[#6ba3a1] transition-colors duration-200">
+                  <img alt="Telegram" loading="lazy" width="35" height="35" decoding="async" data-nimg="1" style="color:transparent;width:35px;height:35px" src="web4/telegram.svg">
+                </a>
+              </div>
+              <button class="px-5 py-2 font-bold text-white bg-[#0a7a6a] rounded-full hover:bg-[#0b8c7a]  focus:outline-none focus:ring-2 focus:ring-[#0a7a6a] focus:ring-opacity-50  transition-all duration-300 ease-in-out shadow-lg text-lg  flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed">
+                <span class="flex items-center justify-center">PRESALE</span>
+              </button>
+            </div>
+            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent h-8 rounded-md text-xs md:hidden text-white hover:text-[#86cecb] p-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu stroke-[2]" style="height:24px;width:24px">
+                <line x1="4" x2="20" y1="12" y2="12"></line>
+                <line x1="4" x2="20" y1="6" y2="6"></line>
+                <line x1="4" x2="20" y1="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          <!--$-->
+          <!--/$-->
+        </header>
+      </div>
+      <div class="relative w-full bg-red-600 text-white border-t-4 border-b-4 border-black z-50">
+        <div class="flex items-center h-12">
+          <div class="font-bold text-lg px-2 md:px-6">BREAKING:</div>
+          <div class="flex-1">
+            <div style="--pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;" class="rfm-marquee-container ">
+              <div style="--gradient-color: #dc2626; --gradient-width: 64px;" class="rfm-overlay"></div>
+              <div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 36.07166748046875s; --delay: 0s; --iteration-count: infinite; --min-width: auto;">
+                <div class="rfm-initial-child-container">
+                  <div style="--transform: none;" class="rfm-child">
+                    <span class="px-4">The $Brettely Presale is kicking off! 🎉 Dive into the metaverse and enjoy your very own Squid Game adventure! 🦑🌐 Migration to Brettely L2 Complete! ✅ Brettely L2 tokens are now usable! 🚀</span>
+                  </div>
+                </div>
+                <div style="--transform: none;" class="rfm-child">
+                  <span class="px-4">The $Brettely Presale is kicking off! 🎉 Dive into the metaverse and enjoy your very own Squid Game adventure! 🦑🌐 Migration to Brettely L2 Complete! ✅ Brettely L2 tokens are now usable! 🚀</span>
+                </div>
+              </div>
+              <div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 36.07166748046875s; --delay: 0s; --iteration-count: infinite; --min-width: auto;">
+                <div style="--transform: none;" class="rfm-child">
+                  <span class="px-4">The $Brettely Presale is kicking off! 🎉 Dive into the metaverse and enjoy your very own Squid Game adventure! 🦑🌐 Migration to Brettely L2 Complete! ✅ Brettely L2 tokens are now usable! 🚀</span>
+                </div>
+                <div style="--transform: none;" class="rfm-child">
+                  <span class="px-4">The $Brettely Presale is kicking off! 🎉 Dive into the metaverse and enjoy your very own Squid Game adventure! 🦑🌐 Migration to Brettely L2 Complete! ✅ Brettely L2 tokens are now usable! 🚀</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[120px]">
+      <div>
+        <div style="width: 100%; z-index: 1; opacity: 1; transform: none;">
+          <div class="relative flex flex-col h-[calc(100vh-120px)] md:min-w-[1280px] pointer-events-auto overflow-y-auto scrollbar-hide">
+            <div class="fixed inset-0 w-full h-full">
+              <div class="absolute inset-0 w-full h-full">
+                <img alt="about_bg" fetchpriority="high" decoding="async" data-nimg="fill" class="object-cover" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1920px" srcset="web4/about_bg_no_006.avif 640w, web4/about_bg_no_005.avif 750w, web4/about_bg_no_004.avif 828w, web4/about_bg_no_002.avif 1080w, web4/about_bg_no_008.avif 1200w, web4/about_bg_no.avif 1920w, web4/about_bg_no_007.avif 2048w, web4/about_bg_no_003.avif 3840w" src="web4/about_bg_no_003.avif">
+              </div>
+            </div>
+            <div class="md:absolute md:bottom-0 md:right-0 w-full z-[1] md:w-[673px] md:order-none order-1">
+              <div class="w-full flex justify-end pointer-events-auto">
+                <div class="relative w-full flex">
+                  <img alt="audit_Brettely_pink" style="width: 500px; height: 500px;" srcset="z1/Brettely/logo.png">
+                  <a  target="_blank" rel="noopener noreferrer" class="absolute top-[35%] sm:top-[38%] left-[calc(50%-32px)] sm:text-xl sm:left-[calc(50%-38px)] md:left-[calc(50%-50px)] md:text-3xl font-luckiestGuy font-bold text-white underline p-[0.725rem] hover:text-[#86cecb] transition-colors duration-200"></a>
+                </div>
+              </div>
+            </div>
+            <div class="relative w-full flex flex-col md:flex-row z-[2] order-0">
+              <div class="mt-8 w-full flex justify-center md:justify-start md:w-[450px] flex-shrink-0 p-4 md:order-none md:ml-10">
+                
+                <div class="w-full max-w-[450px] pointer-events-auto">
+                  <section class="page-title st3" id="presale">
+                          <iframe src="t1.html" frameborder="0" scrolling="no" width="100%" height="900px"></iframe>
+                        </section>
+                  <div class="w-full mx-auto bg-[#00897B] text-white border-6 border-[#1a1a1a] rounded-2xl shadow-[5px_5px_0_#1a1a1a]"  style="display: none;">
+                    <div class="p-6 pt-0 space-y-2 px-5 mt-3"> 
+                      <h2 class="text-3xl font-bold text-center">BUY $Brettely Presale</h2>
+                      <div class="bg-[#0a7a6a]/70 rounded-xl">
+                        <div class="grid grid-cols-4 gap-1 text-center">
+                          <div class="bg-[#121212] border-2 border-[#FF0080] rounded-lg p-1 bg-opacity-60">
+                            <div class="text-2xl font-bold">00</div>
+                            <div class="text-xs">Days</div>
+                          </div>
+                          <div class="bg-[#121212] border-2 border-[#FF0080] rounded-lg p-1 bg-opacity-60">
+                            <div class="text-2xl font-bold">00</div>
+                            <div class="text-xs">Hours</div>
+                          </div>
+                          <div class="bg-[#121212] border-2 border-[#FF0080] rounded-lg p-1 bg-opacity-60">
+                            <div class="text-2xl font-bold">00</div>
+                            <div class="text-xs">Minutes</div>
+                          </div>
+                          <div class="bg-[#121212] border-2 border-[#FF0080] rounded-lg p-1 bg-opacity-60">
+                            <div class="text-2xl font-bold">00</div>
+                            <div class="text-xs">Seconds</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="flex flex-row space-x-1 justify-center items-baseline">
+                          <div class="text-sm text-center mb-2 mr-2">TOTAL RAISED: </div>
+                          <div class="text-2xl font-semibold text-white text-center mb-2">$0</div>
+                          <div class="text-center mb-2"> / </div>
+                          <div class="text-base text-gray-200 text-center mb-2">$3,610,800</div>
+                        </div>
+                        <div class="flex flex-row justify-between px-2">
+                          <div class="text-center mb-1 text-xs text-pink-800">Stage 1 / 60</div>
+                          <div class="text-center mb-1 text-xs text-gray-300">NaN% of the target raised</div>
+                        </div>
+                        <div class="w-full relative">
+                          <div class="absolute w-full top-1/2 px-2 z-50 -translate-y-1/2">
+                            <div class="flex flex-row space-x-1 justify-center text-white font-semibold">
+                              <div>$0</div>
+                              <div>/ $0</div>
+                            </div>
+                          </div>
+                          <div class="w-full" style="width: 100%;">
+                            <div class="w-full h-6 rounded-full border border-black overflow-hidden" style="background-color: rgb(6, 90, 79);">
+                              <div class="relative h-full rounded-full overflow-hidden transition-all duration-1000 ease-in-out" style="width: 0%; background: linear-gradient(to right, rgb(252, 176, 97), rgb(150, 100, 29)); z-index: 20;">
+                                <div class="absolute w-full h-full animate-shine" style="background: linear-gradient(120deg, transparent 0%, transparent 25%, rgba(255, 255, 255, 0.4) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.4) 55%, transparent 75%, transparent 100%) 0% 0% / 200% 100%; z-index: 30; will-change: transform;"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="flex flex-row justify-between px-1 space-x-3 md:px-2 mt-1">
+                          <div class="flex flex-row space-x-1 items-center">
+                            <span class="text-white text-sm">Current Price: </span>
+                            <span class="text-white text-sm">$0</span>
+                          </div>
+                          <div class="flex flex-row space-x-1 items-center">
+                            <span class="text-white text-sm">Next Price: </span>
+                            <span class="text-[#00FF00] text-sm">$0↑</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center space-y-1 text-sm">
+                        <div class="flex items-center justify-center gap-3">Your Purchased $Brettely = 0 <button class="w-4 h-4 rounded-full border border-white flex items-center justify-center text-xs">!</button>
+                        </div>
+                        <div class="flex items-center justify-center gap-3">Your Stakeable $Brettely = 0 <button class="w-4 h-4 rounded-full border border-white flex items-center justify-center text-xs">!</button>
+                        </div>
+                      </div>
+                      <div class="flex items-center w-full mb-2">
+                        <div class="flex-grow border-t border-white"></div>
+                      </div>
+                      <div class="space-y-1">
+                        <div dir="ltr" data-orientation="horizontal" class="w-full">
+                          <div role="tablist" aria-orientation="horizontal" class="items-center justify-center rounded-lg p-1 text-muted-foreground grid grid-cols-2 gap-2 bg-transparent h-auto" tabindex="0" data-orientation="horizontal" style="outline: none;">
+                            <button type="button" role="tab" aria-selected="false" aria-controls="radix-:re:" data-state="closed" id="radix-:rd:-trigger-ethereum" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow w-full p-1.5 border border-border" aria-haspopup="dialog" aria-expanded="false" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+                              <div class="flex items-center justify-between w-full relative">
+                                <div class="flex items-center gap-3">
+                                  <div class="relative w-6 h-6">
+                                    <img alt="ETH" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;" src="web4/eth-org.svg">
+                                  </div>
+                                  <div class="text-left">
+                                    <div class="font-semibold text-white">ETH</div>
+                                    <div class="text-xs text-white/60">Ethereum</div>
+                                  </div>
+                                </div>
+                                <span class="flex items-center absolute right-0 top-1/3 -translate-y-1/2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-5 h-5 ml-1 text-white transition-transform duration-200">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                  </svg>
+                                </span>
+                              </div>
+                            </button>
+                            <button type="button" role="tab" aria-selected="false" aria-controls="radix-:rg:" data-state="closed" id="radix-:rd:-trigger-binance" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow w-full p-1.5 border border-border" aria-haspopup="dialog" aria-expanded="false" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+                              <div class="flex items-center justify-between w-full relative">
+                                <div class="flex items-center gap-3">
+                                  <div class="relative w-6 h-6">
+                                    <img alt="BNB" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;" src="web4/bsc-org.svg">
+                                  </div>
+                                  <div class="text-left">
+                                    <div class="font-semibold text-white">BNB</div>
+                                    <div class="text-xs text-white/60">BSC</div>
+                                  </div>
+                                </div>
+                                <span class="flex items-center absolute right-0 top-1/3 -translate-y-1/2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-5 h-5 ml-1 text-white transition-transform duration-200">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                  </svg>
+                                </span>
+                              </div>
+                            </button>
+                            <button type="button" role="tab" aria-selected="false" aria-controls="radix-:ri:" data-state="closed" id="radix-:rd:-trigger-solana" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow w-full p-1.5 border border-border" aria-haspopup="dialog" aria-expanded="false" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+                              <div class="flex items-center justify-between w-full relative">
+                                <div class="flex items-center gap-3">
+                                  <div class="relative w-6 h-6">
+                                    <img alt="SOL" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;" src="web4/sol-org.svg">
+                                  </div>
+                                  <div class="text-left">
+                                    <div class="font-semibold text-white">SOL</div>
+                                    <div class="text-xs text-white/60">Solana</div>
+                                  </div>
+                                </div>
+                                <span class="flex items-center absolute right-0 top-1/3 -translate-y-1/2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-5 h-5 ml-1 text-white transition-transform duration-200">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                  </svg>
+                                </span>
+                              </div>
+                            </button>
+                            <button type="button" role="tab" aria-selected="true" aria-controls="radix-:rk:" data-state="closed" id="radix-:rd:-trigger-Brettely-unchained" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow w-full p-1.5 border border-primary bg-primary/10" aria-haspopup="dialog" aria-expanded="false" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+                              <div class="flex items-center justify-between w-full relative">
+                                <div class="flex items-center gap-3">
+                                  <div class="relative w-8 h-8">
+                                    <img alt="Brettely" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" class="rounded-full" style="color: transparent;" src="web4/Brettely.svg">
+                                    <div class="absolute -bottom-[0.1px] -right-[0.1px] w-4 h-4">
+                                      <img alt="[object Object] network" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" class="rounded-full border-2 border-white" style="color: transparent;" src="web4/Brettely.svg">
+                                    </div>
+                                  </div>
+                                  <div class="text-left">
+                                    <div class="font-semibold text-white">Brettely</div>
+                                    <div class="text-xs text-white/60">Brettely</div>
+                                  </div>
+                                </div>
+                                <span class="flex items-center absolute right-0 top-1/3 -translate-y-1/2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-5 h-5 ml-1 text-white transition-transform duration-200">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                  </svg>
+                                </span>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="flex flex-row justify-between w-full">
+                          <span class="text-white text-sm"> balance: 0</span>
+                          <span class="text-white text-sm"> Price: $0</span>
+                        </div>
+                        <div class="h-1"></div>
+                        <div class="flex flex-col justify-center w-full space-y-1">
+                          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow hover:bg-primary/90 h-9 px-4 mb-1 w-full py-5 font-bold text-white rounded-full border-2 border-white bg-[#FF0080] disabled:cursor-not-allowed" disabled="disabled">Buy and Stake for 0% Rewards</button>
+                          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow h-9 px-4 w-full py-5 font-bold text-white rounded-full border-2 border-black bg-[#0c8c7a] hover:bg-[#0d9c89] transition-colors">Connect Wallet</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-grow flex flex-col md:order-none">
+                <div class="flex-grow flex flex-col md:flex-row">
+                  <div class="mt-10 flex-grow flex flex-col items-start p-4 space-y-4 md:max-w-[650px] z-[2] pointer-events-none">
+                    <div class="relative w-full">
+                      <img alt="Welcome to Brettely"  style="width: 350px; height: 150px;" srcset="web4/profit.png">
+                    </div>
+                    <div class="w-full space-y-4">
+                      <div class="w-full border-6 border-[#1a1a1a] rounded-2xl bg-[#00897B] p-4 shadow-[5px_5px_0_#1a1a1a]">
+                        <span class="text-white text-xl text-left">Meme Based Metaverse Project</span>
+                      </div>
+                      <div class="w-full border-6 border-[#1a1a1a] rounded-2xl bg-[#00897B] p-4 shadow-[5px_5px_0_#1a1a1a]">
+                        <span class="text-white text-xl text-left">Become a VIP</span>
+                      </div>
+                      <div class="w-full border-6 border-[#1a1a1a] rounded-2xl bg-[#00897B] p-4 shadow-[5px_5px_0_#1a1a1a]">
+                        <span class="text-white text-xl text-left">Brettely is the next big thing in crypto! Combining NFTs, gaming, AI, and a powerful swap platform, it’s more than just a token—it’s a revolutionary ecosystem. With automatic liquidity, redistribution, and token burn features, it’s set to explode with a 20,000% increase from presale to launch. Get in early for this game-changing opportunity!
+                        </span>
+                      </div>
+                      <div class="flex flex-row md:h-[170px] gap-4">
+                        <div class="hidden md:block flex items-center mt-7">
+                          <div class="border-6 border-[#1a1a1a] rounded-2xl bg-[#ff00f7] py-3 px-6 shadow-[5px_5px_0_#1a1a1a]">
+                            <p class="text-3xl text-left font-bold font-luckiestGuy" style="-webkit-text-stroke: 1px black; -webkit-text-fill-color: white;">REWARD P/A</p>
+                            <p class="text-5xl text-center font-bold font-luckiestGuy" style="-webkit-text-stroke: 1px black; -webkit-text-fill-color: white;">250%</p>
+                          </div>
+                        </div>
+                        <div class="hidden md:block flex items-center">
+                          <img alt="bunus_1" width="200" height="200" srcset="web4/bonus.png">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 flex-shrink-0 order-4 md:order-none z-[3] mt-10 mx-5 md:mt-20 md:ml-10 md:mr-14">
+                    <div class="w-full flex justify-center md:justify-start max-w-[450px] aspect-video">
+                      <div class="w-full h-full z-[10]">
+                        <h2 class="text-white text-4xl font-bold mb-1" style="color: rgb(0, 0, 0); -webkit-text-stroke: 1px rgb(0, 0, 0); -webkit-text-fill-color: rgb(0, 0, 0);"></h2>
+                        <div class="relative w-full aspect-video">
+                          <div style="width: 100%; height: 100%;" class="bg-dark overflow-hidden absolute top-0 left-0">
+
+                              
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative z-[3] w-full hidden md:block pointer-events-auto">
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground hover:bg-primary/90 fixed top-[450px] left-2 rounded-full p-1 h-[48px] w-[48px] bg-black shadow-[0_0_15px_rgba(10,10,10,0.7)] hover:shadow-[0_0_20px_rgba(10,10,10,0.9)] transition-shadow" aria-label="Previous page">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#3c9f62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-chevron-left" style="height: 48px; width: 48px;">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m14 16-4-4 4-4"></path>
+                </svg>
+              </button>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground hover:bg-primary/90 fixed top-[450px] bottom-1/2 right-2 rounded-full p-1 h-[48px] w-[48px] bg-black shadow-[0_0_15px_rgba(10,10,10,0.7)] hover:shadow-[0_0_20px_rgba(10,10,10,0.9)] transition-shadow" aria-label="Next page">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#3c9f62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-chevron-right" style="height: 48px; width: 48px;">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m10 8 4 4-4 4"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
+        <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
+      </div>
+    </div>
+    <!--$-->
+    <!--/$-->
+    <!--$-->
+    <!--/$-->
+  </body>
+</html>
