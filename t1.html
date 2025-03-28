@@ -12,43 +12,72 @@
         e.preventDefault()
       })
     </script>
+         <style>
+          @font-face {
+            font-family: 'DirtFont';
+            src: url('x1/css/dirt.ttf') format('truetype');
+          }
+          
+          .font-dirt {
+            font-family: 'DirtFont', sans-serif;
+          }
+          </style>
+                <style>
+                  @font-face {
+                      font-family: 'Dirt2Font';
+                      src: url('x1/css/dirt2.ttf') format('truetype');
+                  }
+                
+                  .font-dirt2 {
+                      font-family: 'Dirt2Font', sans-serif;
+                  }
+                </style>
   </head>
-      <div class="purchase-interface" style="display:none">
         <div class="purchase-interface">
-          <img src="x1/images/interfaz/luna.png" alt="Imagen" style="position: absolute; right: 10px; top: 63px; transform: translateY(-50%); width: 118px; height: 118px; ">
-          <div _ngcontent-ng-c499713394="" class="walletBox" bis_skin_checked="1">
-            <div _ngcontent-ng-c499713394="" class="px-3 pt-3 w-100 d-flex flex-column align-items-center justify-content-start text-center" bis_skin_checked="1">
-              <p class="font-18 text-capitalize text-white fw-semibold mt-1 ng-star-inserted" style="vertical-align: middle; height: 25px; margin-left: -170px; margin-top: -5px;">
+          <div _ngcontent-ng-c499713394=" "class="walletBox" bis_skin_checked="1" >
+            <div _ngcontent-ng-c499713394=" "class="px-3 pt-1 w-100 d-flex flex-column align-items-center justify-content-start text-center" bis_skin_checked="1">
+              <p class="font-18 text-capitalize text-white fw-semibold mt-1 ng-star-inserted">
                 Secure Payments
                 <img src="t1//images/vd.png" alt="Verificado" style="vertical-align: middle; height: 25px; margin-left: 0px; margin-top: -5px;">
-              </p>              
-              <div class="d-flex align-items-center justify-content-center gap-1 fw-regular counter px-3 mb-3 mt-3" style="vertical-align: middle; height: 25px; margin-left: -135px; margin-top: 0px;" >
-                <div class="rounded-3 time-card text-center d-flex" id="days">
-                  <div class="value">5</div>
-                  <div translate="" class="indicator">Days</div>
+              </p>      
+                      
+              <div class="d-flex align-items-center justify-content-center  fw-regular counter">
+                <div class="" id="days">
+                  <div class="value"  style="display:none"></div>
+                  <div translate="" class="indicator"></div>
                 </div>
-                <div class="rounded-3 time-card text-center" id="hours">
-                  <div class="value">0</div>
-                  <div translate="" class="indicator">Hours</div>
+                <div class="" id="hours">
+                  <div class="value"  style="display:none"></div>
+                  <div translate="" class="indicator"></div>
                 </div>
-                <div class="rounded-3 time-card text-center" id="minutes">
-                  <div class="value">0</div>
-                  <div translate="" class="indicator">Minutes</div>
+                <div class="" id="minutes">
+                  <div class="value"  style="display:none"></div>
+                  <div translate="" class="indicator"></div>
                 </div>
-                <div class="rounded-3 time-card text-center" id="seconds">
-                  <div class="value">0</div>
-                  <div translate="" class="indicator">Seconds</div>
+                <div class="" id="seconds">
+                  <div class="value"  style="display:none"></div>
+                  <div translate="" class="indicator"></div>
                 </div>
               </div>
-              <div _ngcontent-ng-c499713394="" data-percent="0" class="progress ng-star-inserted" bis_skin_checked="1">
+              <div class="font-30 d-flex justify-content-between w-100" style="vertical-align: middle; height: 25px; margin-left: 0px; margin-top: -15px;">
+                <span class="font-dirt font-30 fw-semibold" style="color: #ffb636;">USDT Raised:</span>
+                <div>
+                  <span id="usdt-raised" class="font-dirt font-30 fw-semibold" style="color: #ffb636;">Usdt Raised Mount</span>
+                  <span class=" text-white "></span>
+                </div>
+              </div>
+
+              
+              <div _ngcontent-ng-c499713394="" data-percent="0" class="progress ng-star-inserted" bis_skin_checked="1" style="margin-top: 25px;">
+                
                 <div _ngcontent-ng-c499713394="" class="bar" style="width:90%; position: relative; text-align: center; color: white; line-height: 20px; background: linear-gradient(to right, orange, red); overflow: visible;" bis_skin_checked="1">
                     
                 </div>
             </div>
-            <img src="t1//images/cohete.svg" alt="Imagen" style="position: absolute; right: 5px; top: 137px; transform: translateY(-50%); width: 100px; height: 60px; z-index: 2;">
+            <img src="t1//images/cohete.svg" alt="Imagen" style="position: absolute; right: 5px; top: 88px; transform: translateY(-50%); width: 100px; height: 60px; z-index: 2;">
               
 
-              <div _ngcontent-ng-c3760924603="" class="swapSection mt-3 mb-2" bis_skin_checked="1">
+              <div _ngcontent-ng-c3760924603="" class="swapSection mt-1 mb-1" bis_skin_checked="1">
                 <div class="body-section mt-0">
                     <div class="row my-0">
                         <div class="mt-2">
